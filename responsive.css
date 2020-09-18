@@ -1,0 +1,51 @@
+@media screen and (max-width : 990px){
+    .intro-details h1 {
+        font-size: 3em;
+    }
+
+    .intro-details p {
+        font-size: 1.2em;
+    }
+
+    .heading {
+        font-size: 2.5em;
+    }
+
+    .portfolio-details {
+        width: 80%;
+    }
+
+    .personal-hoby ul {
+        grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+    }
+
+    #description {
+        flex-direction: column;
+    }
+
+    #description p {
+        padding: 0 !important;
+        margin: 20px 0;
+    }
+
+    .footer-details {
+        grid-gap:20px ;
+        box-sizing: border-box;
+        grid-template: repeat(3, 1fr) / 1fr;
+    }
+
+    .socail-icon {
+        margin-left: 100px;
+        
+    }
+    
+    @media screen and (max-width: 800px) {
+        .personal-hoby ul {
+            grid-template: repeat(6, 1fr) / 1fr;
+        }
+        .portfolio-details {
+            width: 60%;
+        }
+    }
+    
+}
